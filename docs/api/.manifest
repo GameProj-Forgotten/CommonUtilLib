@@ -1,0 +1,7 @@
+{
+  "CommonUtilLib.ThreadSafe": "CommonUtilLib.ThreadSafe.yml",
+  "CommonUtilLib.ThreadSafe.SingleTon`1": "CommonUtilLib.ThreadSafe.SingleTon-1.yml",
+  "CommonUtilLib.ThreadSafe.SingleTon`1.Dispose": "CommonUtilLib.ThreadSafe.SingleTon-1.yml",
+  "CommonUtilLib.ThreadSafe.SingleTon`1.Finalize": "CommonUtilLib.ThreadSafe.SingleTon-1.yml",
+  "CommonUtilLib.ThreadSafe.SingleTon`1.Instance": "CommonUtilLib.ThreadSafe.SingleTon-1.yml"
+}

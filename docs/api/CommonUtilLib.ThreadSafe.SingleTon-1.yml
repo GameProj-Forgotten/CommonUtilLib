@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1
+  commentId: T:CommonUtilLib.ThreadSafe.SingleTon`1
+  id: SingleTon`1
+  parent: CommonUtilLib.ThreadSafe
+  children:
+  - CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  - CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  - CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  langs:
+  - csharp
+  - vb
+  name: SingleTon<_T>
+  nameWithType: SingleTon<_T>
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>
+  type: Class
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: SingleTon
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 13
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  summary: General thread safe singleton class
+  example: []
+  syntax:
+    content: 'public class SingleTon<_T> : IDisposable where _T : class, IDisposable, new()'
+    typeParameters:
+    - id: _T
+      description: ''
+    content.vb: Public Class SingleTon(Of _T As {Class, IDisposable, New}) Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: SingleTon(Of _T)
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T)
+  name.vb: SingleTon(Of _T)
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  commentId: M:CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  id: Finalize
+  parent: CommonUtilLib.ThreadSafe.SingleTon`1
+  langs:
+  - csharp
+  - vb
+  name: ~SingleTon()
+  nameWithType: SingleTon<_T>.~SingleTon()
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.~SingleTon()
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: Finalize
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 19
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  syntax:
+    content: protected ~SingleTon()
+    content.vb: 'Protected '
+  overload: CommonUtilLib.ThreadSafe.SingleTon`1.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  commentId: P:CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  id: Instance
+  parent: CommonUtilLib.ThreadSafe.SingleTon`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: SingleTon<_T>.Instance
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Instance
+  type: Property
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: Instance
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 27
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  summary: Get the instance of the singleton class
+  example: []
+  syntax:
+    content: public static _T Instance { get; }
+    parameters: []
+    return:
+      type: '{_T}'
+    content.vb: Public Shared ReadOnly Property Instance As _T
+  overload: CommonUtilLib.ThreadSafe.SingleTon`1.Instance*
+  nameWithType.vb: SingleTon(Of _T).Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Instance
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  commentId: M:CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  id: Dispose
+  parent: CommonUtilLib.ThreadSafe.SingleTon`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SingleTon<_T>.Dispose()
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: Dispose
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 45
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  summary: Dispose the instance of the singleton class
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: CommonUtilLib.ThreadSafe.SingleTon`1.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: SingleTon(Of _T).Dispose()
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Dispose()
+references:
+- uid: CommonUtilLib.ThreadSafe
+  commentId: N:CommonUtilLib.ThreadSafe
+  href: CommonUtilLib.html
+  name: CommonUtilLib.ThreadSafe
+  nameWithType: CommonUtilLib.ThreadSafe
+  fullName: CommonUtilLib.ThreadSafe
+  spec.csharp:
+  - uid: CommonUtilLib
+    name: CommonUtilLib
+    href: CommonUtilLib.html
+  - name: .
+  - uid: CommonUtilLib.ThreadSafe
+    name: ThreadSafe
+    href: CommonUtilLib.ThreadSafe.html
+  spec.vb:
+  - uid: CommonUtilLib
+    name: CommonUtilLib
+    href: CommonUtilLib.html
+  - name: .
+  - uid: CommonUtilLib.ThreadSafe
+    name: ThreadSafe
+    href: CommonUtilLib.ThreadSafe.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Finalize*
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  href: CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Finalize
+  name: ~SingleTon
+  nameWithType: SingleTon<_T>.~SingleTon
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.~SingleTon
+  spec.csharp:
+  - name: "~"
+  - uid: CommonUtilLib.ThreadSafe.SingleTon`1.Finalize*
+    name: SingleTon
+    href: CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Finalize
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Instance*
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  href: CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Instance
+  name: Instance
+  nameWithType: SingleTon<_T>.Instance
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Instance
+  nameWithType.vb: SingleTon(Of _T).Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Instance
+- uid: '{_T}'
+  commentId: '!:_T'
+  definition: _T
+  name: _T
+  nameWithType: _T
+  fullName: _T
+- uid: _T
+  commentId: '!:_T'
+  name: _T
+  nameWithType: _T
+  fullName: _T
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Dispose*
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  href: CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Dispose
+  name: Dispose
+  nameWithType: SingleTon<_T>.Dispose
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Dispose
+  nameWithType.vb: SingleTon(Of _T).Dispose
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

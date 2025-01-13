@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "src": "C:/Storage/Libs/Forgotten/CommonUtilLib",
+          "src": "../",
           "files": [
             "*.csproj"
           ]
@@ -26,6 +26,7 @@
     "resource": [
       {
         "files": [
+          "images\\Logo.png"
         ]
       }
     ],
@@ -37,6 +38,7 @@
     "globalMetadata": {
       "_appName": "CommonUtilLib",
       "_appTitle": "CommonUtilLib",
+      "_appLogoPath": "Images\\Logo.png",
       "_enableSearch": true,
       "pdf": true
     }

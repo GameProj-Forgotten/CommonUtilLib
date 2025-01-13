@@ -1,3 +1,68 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: CommonUtilLib.ThreadSafe
+  name: CommonUtilLib.ThreadSafe
+  href: api/CommonUtilLib.ThreadSafe.html
+  commentId: N:CommonUtilLib.ThreadSafe
+  fullName: CommonUtilLib.ThreadSafe
+  nameWithType: CommonUtilLib.ThreadSafe
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1
+  name: SingleTon<_T>
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html
+  commentId: T:CommonUtilLib.ThreadSafe.SingleTon`1
+  name.vb: SingleTon(Of _T)
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T)
+  nameWithType: SingleTon<_T>
+  nameWithType.vb: SingleTon(Of _T)
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  name: Dispose()
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Dispose
+  commentId: M:CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Dispose()
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Dispose()
+  nameWithType: SingleTon<_T>.Dispose()
+  nameWithType.vb: SingleTon(Of _T).Dispose()
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Dispose*
+  name: Dispose
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Dispose_
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTon`1.Dispose
+  isSpec: "True"
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Dispose
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Dispose
+  nameWithType: SingleTon<_T>.Dispose
+  nameWithType.vb: SingleTon(Of _T).Dispose
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  name: ~SingleTon()
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Finalize
+  commentId: M:CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  name.vb: ''
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.~SingleTon()
+  fullName.vb: ''
+  nameWithType: SingleTon<_T>.~SingleTon()
+  nameWithType.vb: ''
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Finalize*
+  name: ~SingleTon
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Finalize_
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTon`1.Finalize
+  isSpec: "True"
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.~SingleTon
+  nameWithType: SingleTon<_T>.~SingleTon
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  name: Instance
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Instance
+  commentId: P:CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Instance
+  nameWithType: SingleTon<_T>.Instance
+  nameWithType.vb: SingleTon(Of _T).Instance
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1.Instance*
+  name: Instance
+  href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html#CommonUtilLib_ThreadSafe_SingleTon_1_Instance_
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTon`1.Instance
+  isSpec: "True"
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>.Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T).Instance
+  nameWithType: SingleTon<_T>.Instance
+  nameWithType.vb: SingleTon(Of _T).Instance

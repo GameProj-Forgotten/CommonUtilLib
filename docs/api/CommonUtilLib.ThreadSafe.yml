@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonUtilLib.ThreadSafe
+  commentId: N:CommonUtilLib.ThreadSafe
+  id: CommonUtilLib.ThreadSafe
+  children:
+  - CommonUtilLib.ThreadSafe.SingleTon`1
+  langs:
+  - csharp
+  - vb
+  name: CommonUtilLib.ThreadSafe
+  nameWithType: CommonUtilLib.ThreadSafe
+  fullName: CommonUtilLib.ThreadSafe
+  type: Namespace
+  assemblies:
+  - CommonUtilLib
+references:
+- uid: CommonUtilLib.ThreadSafe.SingleTon`1
+  commentId: T:CommonUtilLib.ThreadSafe.SingleTon`1
+  href: CommonUtilLib.ThreadSafe.SingleTon-1.html
+  name: SingleTon<_T>
+  nameWithType: SingleTon<_T>
+  fullName: CommonUtilLib.ThreadSafe.SingleTon<_T>
+  nameWithType.vb: SingleTon(Of _T)
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTon(Of _T)
+  name.vb: SingleTon(Of _T)
+  spec.csharp:
+  - uid: CommonUtilLib.ThreadSafe.SingleTon`1
+    name: SingleTon
+    href: CommonUtilLib.ThreadSafe.SingleTon-1.html
+  - name: <
+  - name: _T
+  - name: '>'
+  spec.vb:
+  - uid: CommonUtilLib.ThreadSafe.SingleTon`1
+    name: SingleTon
+    href: CommonUtilLib.ThreadSafe.SingleTon-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: _T
+  - name: )

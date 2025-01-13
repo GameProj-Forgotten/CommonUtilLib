@@ -1,17 +1,27 @@
 {
+  "api/CommonUtilLib.ThreadSafe.SingleTon-1.html": {
+    "href": "api/CommonUtilLib.ThreadSafe.SingleTon-1.html",
+    "title": "Class SingleTon<_T> | CommonUtilLib",
+    "keywords": "Class SingleTon<_T> Namespace CommonUtilLib.ThreadSafe Assembly CommonUtilLib.dll General thread safe singleton class public class SingleTon<_T> : IDisposable where _T : class, IDisposable, new() Type Parameters _T Inheritance object SingleTon<_T> Implements IDisposable Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties Instance Get the instance of the singleton class public static _T Instance { get; } Property Value _T Methods Dispose() Dispose the instance of the singleton class public void Dispose() ~SingleTon() protected ~SingleTon()"
+  },
+  "api/CommonUtilLib.ThreadSafe.html": {
+    "href": "api/CommonUtilLib.ThreadSafe.html",
+    "title": "Namespace CommonUtilLib.ThreadSafe | CommonUtilLib",
+    "keywords": "Namespace CommonUtilLib.ThreadSafe Classes SingleTon<_T> General thread safe singleton class"
+  },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | CommonUtilLib",
-    "keywords": "Getting Started"
+    "keywords": "Getting Started This library is written assuming that it will be used in the form of a dll. Therefore, it can be applied generally by referencing the dll to the project. However, if you want a detailed official manual, please refer to the following materials: .Net - Manage references in a project Unity - Integrating third-party code libraries (plug-ins)"
   },
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction | CommonUtilLib",
-    "keywords": "Introduction"
+    "keywords": "Introduction CommonUtilLib is a basic library that aims to collect basic utilities commonly used throughout the Forgotten project. Please note that this library is built based on .Net Framework 4.8. The representative functions provided by this library are as follows: CommonUtilLib └── ThreadSafe └── SingleTon<_T> : IDisposable where _T : class, IDisposable, new()"
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | CommonUtilLib",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "| CommonUtilLib",
+    "keywords": "EasyTechToolUI Abstract This library contains common utilities used in the Forgotten project Each function is organized into thread-safe and non-thread-safe versions Features Thread Safe SingleTon Usage [!IMPORTANT] This project is for UI development in .Net Framework Dependency UnityEngine.dll"
   }
 }
