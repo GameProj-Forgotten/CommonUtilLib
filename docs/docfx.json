@@ -1,0 +1,44 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "C:/Storage/Libs/Forgotten/CommonUtilLib",
+          "files": [
+            "*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+        ]
+      }
+    ],
+    "output": "./",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "CommonUtilLib",
+      "_appTitle": "CommonUtilLib",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}
