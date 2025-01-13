@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace CommonUtilLib.ThreadSafe
 {
+    /// <summary>
+    /// General thread safe singleton class
+    /// </summary>
+    /// <typeparam name="_T"></typeparam>
     public class SingleTon<_T> : IDisposable where _T : class, IDisposable, new()
     {
         private static _T m_instance = null;
@@ -18,6 +22,9 @@ namespace CommonUtilLib.ThreadSafe
             Dispose(false);
         }
 
+        /// <summary>
+        /// Get the instance of the singleton class
+        /// </summary>
         public static _T Instance
         {
             get
@@ -33,6 +40,9 @@ namespace CommonUtilLib.ThreadSafe
             }
         }
 
+        /// <summary>
+        /// Dispose the instance of the singleton class
+        /// </summary>
         public void Dispose()
         {
             Dispose(true);
