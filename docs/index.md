@@ -22,8 +22,6 @@ Each function is organized into thread-safe and non-thread-safe versions
 - Thread Safe
     - SingleTon
 
-<br>
-
 ## Usage
 > [!IMPORTANT]\
 > This project is for UI development in .Net Framework
