@@ -13,5 +13,5 @@ The representative functions provided by this library are as follows:
 ```
 CommonUtilLib
 └── ThreadSafe
-    └── SingleTon<_T> : IDisposable where _T : class, IDisposable, new()
+    └── class SingleTon<_T> : IDisposable where _T : class, IDisposable, new()
 ```

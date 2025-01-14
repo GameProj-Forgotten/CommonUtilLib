@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9f2e8c0d-7701-4050-ae0e-4d59992ec7b6" alt="Simple Icons" width=70>
-  <h3 align="center">EasyTechToolUI</h3>
+  <h3 align="center">CommonUtilLib</h3>
 </p>
 
 <p align="center">
@@ -30,5 +30,5 @@ Each function is organized into thread-safe and non-thread-safe versions
 
 ## Dependency
 ```
-UnityEngine.dll
+None
 ```
