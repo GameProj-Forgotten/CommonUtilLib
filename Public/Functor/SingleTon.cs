@@ -63,7 +63,7 @@ namespace CommonUtilLib.ThreadSafe
         }
     }
 
-    public class SingleTonForGameObject<_T> where _T : MonoBehaviour
+    public class SingleTonForGameObject<_T> : MonoBehaviour where _T : class
     {
         private static _T m_instance = null;
         private static readonly object m_lock = new object();

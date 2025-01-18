@@ -14,5 +14,5 @@ The representative functions provided by this library are as follows:
 CommonUtilLib
 └── ThreadSafe
     └── class SingleTon<_T> : IDisposable where _T : class, IDisposable, new()
-    └── class SingleTonForGameObject<_T> where _T : MonoBehaviour
+    └── class SingleTonForGameObject<_T> : MonoBehaviour where _T : class
 ```
