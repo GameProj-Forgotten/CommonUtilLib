@@ -22,11 +22,11 @@
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction | CommonUtilLib",
-    "keywords": "Introduction CommonUtilLib is a basic library that aims to collect basic utilities commonly used throughout the Forgotten project. Please note that this library is built based on .Net Framework 4.8. The representative functions provided by this library are as follows: CommonUtilLib └── ThreadSafe └── class SingleTon<_T> : IDisposable where _T : class, IDisposable, new()"
+    "keywords": "Introduction CommonUtilLib is a basic library that aims to collect basic utilities commonly used throughout the Forgotten project. Please note that this library is built based on .Net Framework 4.8. The representative functions provided by this library are as follows: CommonUtilLib └── ThreadSafe └── class SingleTon<_T> : IDisposable where _T : class, IDisposable, new() └── class SingleTonForGameObject<_T> where _T : MonoBehaviour"
   },
   "index.html": {
     "href": "index.html",
     "title": "| CommonUtilLib",
-    "keywords": "CommonUtilLib Abstract This library contains common utilities used in the Forgotten project Each function is organized into thread-safe and non-thread-safe versions Features Thread Safe SingleTon Usage [!IMPORTANT] This project is for UI development in .Net Framework Dependency None Releases"
+    "keywords": "CommonUtilLib Abstract This library contains common utilities used in the Forgotten project Each function is organized into thread-safe and non-thread-safe versions Features Thread Safe SingleTon SingleTonForGameObject Usage [!IMPORTANT] This project is for UI development in .Net Framework Dependency None Releases"
   }
 }

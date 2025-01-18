@@ -21,6 +21,7 @@ Each function is organized into thread-safe and non-thread-safe versions
 ## Features
 - Thread Safe
     - SingleTon
+    - SingleTonForGameObject
 
 ## Usage
 > [!IMPORTANT]\
