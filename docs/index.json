@@ -4,10 +4,15 @@
     "title": "Class SingleTon<_T> | CommonUtilLib",
     "keywords": "Class SingleTon<_T> Namespace CommonUtilLib.ThreadSafe Assembly CommonUtilLib.dll General thread safe singleton class public class SingleTon<_T> : IDisposable where _T : class, IDisposable, new() Type Parameters _T Inheritance object SingleTon<_T> Implements IDisposable Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties Instance Get the instance of the singleton class public static _T Instance { get; } Property Value _T Methods Dispose() Dispose the instance of the singleton class public void Dispose() ~SingleTon() protected ~SingleTon()"
   },
+  "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html": {
+    "href": "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html",
+    "title": "Class SingleTonForGameObject<_T> | CommonUtilLib",
+    "keywords": "Class SingleTonForGameObject<_T> Namespace CommonUtilLib.ThreadSafe Assembly CommonUtilLib.dll public class SingleTonForGameObject<_T> where _T : MonoBehaviour Type Parameters _T Inheritance object SingleTonForGameObject<_T> Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties Instance public static _T Instance { get; } Property Value _T Methods SetInstance(in _T) public static void SetInstance(in _T instance) Parameters instance _T"
+  },
   "api/CommonUtilLib.ThreadSafe.html": {
     "href": "api/CommonUtilLib.ThreadSafe.html",
     "title": "Namespace CommonUtilLib.ThreadSafe | CommonUtilLib",
-    "keywords": "Namespace CommonUtilLib.ThreadSafe Classes SingleTon<_T> General thread safe singleton class"
+    "keywords": "Namespace CommonUtilLib.ThreadSafe Classes SingleTonForGameObject<_T> SingleTon<_T> General thread safe singleton class"
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",

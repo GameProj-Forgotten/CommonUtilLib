@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using UnityEngine;
+
 
 namespace CommonUtilLib.ThreadSafe
 {
@@ -56,6 +58,39 @@ namespace CommonUtilLib.ThreadSafe
                 {
                     m_instance.Dispose();
                     m_instance = null;
+                }
+            }
+        }
+    }
+
+    public class SingleTonForGameObject<_T> where _T : MonoBehaviour
+    {
+        private static _T m_instance = null;
+        private static readonly object m_lock = new object();
+
+
+        public static _T Instance
+        {
+            get
+            {
+                lock (m_lock)
+                {
+                    if (m_instance == null)
+                    {
+                        throw new Exception("The instance is null");
+                    }
+                    return m_instance;
+                }
+            }
+        }
+
+        public static void SetInstance(in _T instance)
+        {
+            lock (m_lock)
+            {
+                if (m_instance == null)
+                {
+                    m_instance = instance;
                 }
             }
         }

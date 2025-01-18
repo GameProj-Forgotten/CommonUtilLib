@@ -3,6 +3,8 @@ items:
 - uid: CommonUtilLib.ThreadSafe
   name: CommonUtilLib.ThreadSafe
   items:
+  - uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+    name: SingleTonForGameObject<_T>
   - uid: CommonUtilLib.ThreadSafe.SingleTon`1
     name: SingleTon<_T>
 memberLayout: SamePage

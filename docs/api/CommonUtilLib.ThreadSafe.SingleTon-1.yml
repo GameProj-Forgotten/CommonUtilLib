@@ -22,7 +22,7 @@ items:
       repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
     id: SingleTon
     path: ../Public/Functor/SingleTon.cs
-    startLine: 13
+    startLine: 15
   assemblies:
   - CommonUtilLib
   namespace: CommonUtilLib.ThreadSafe
@@ -67,7 +67,7 @@ items:
       repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
     id: Finalize
     path: ../Public/Functor/SingleTon.cs
-    startLine: 19
+    startLine: 21
   assemblies:
   - CommonUtilLib
   namespace: CommonUtilLib.ThreadSafe
@@ -96,7 +96,7 @@ items:
       repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
     id: Instance
     path: ../Public/Functor/SingleTon.cs
-    startLine: 27
+    startLine: 29
   assemblies:
   - CommonUtilLib
   namespace: CommonUtilLib.ThreadSafe
@@ -129,7 +129,7 @@ items:
       repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
     id: Dispose
     path: ../Public/Functor/SingleTon.cs
-    startLine: 45
+    startLine: 47
   assemblies:
   - CommonUtilLib
   namespace: CommonUtilLib.ThreadSafe
@@ -437,7 +437,6 @@ references:
   nameWithType: _T
   fullName: _T
 - uid: _T
-  commentId: '!:_T'
   name: _T
   nameWithType: _T
   fullName: _T

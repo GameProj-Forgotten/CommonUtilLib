@@ -4,6 +4,7 @@ items:
   commentId: N:CommonUtilLib.ThreadSafe
   id: CommonUtilLib.ThreadSafe
   children:
+  - CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
   - CommonUtilLib.ThreadSafe.SingleTon`1
   langs:
   - csharp
@@ -35,6 +36,31 @@ references:
   - uid: CommonUtilLib.ThreadSafe.SingleTon`1
     name: SingleTon
     href: CommonUtilLib.ThreadSafe.SingleTon-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: _T
+  - name: )
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  commentId: T:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  href: CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html
+  name: SingleTonForGameObject<_T>
+  nameWithType: SingleTonForGameObject<_T>
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>
+  nameWithType.vb: SingleTonForGameObject(Of _T)
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T)
+  name.vb: SingleTonForGameObject(Of _T)
+  spec.csharp:
+  - uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+    name: SingleTonForGameObject
+    href: CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html
+  - name: <
+  - name: _T
+  - name: '>'
+  spec.vb:
+  - uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+    name: SingleTonForGameObject
+    href: CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html
   - name: (
   - name: Of
   - name: " "

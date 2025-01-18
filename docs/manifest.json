@@ -22,6 +22,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CommonUtilLib.ThreadSafe.yml",
       "output": {
         ".html": {

@@ -7,6 +7,50 @@ references:
   commentId: N:CommonUtilLib.ThreadSafe
   fullName: CommonUtilLib.ThreadSafe
   nameWithType: CommonUtilLib.ThreadSafe
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  name: SingleTonForGameObject<_T>
+  href: api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html
+  commentId: T:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  name.vb: SingleTonForGameObject(Of _T)
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T)
+  nameWithType: SingleTonForGameObject<_T>
+  nameWithType.vb: SingleTonForGameObject(Of _T)
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  name: Instance
+  href: api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html#CommonUtilLib_ThreadSafe_SingleTonForGameObject_1_Instance
+  commentId: P:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).Instance
+  nameWithType: SingleTonForGameObject<_T>.Instance
+  nameWithType.vb: SingleTonForGameObject(Of _T).Instance
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance*
+  name: Instance
+  href: api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html#CommonUtilLib_ThreadSafe_SingleTonForGameObject_1_Instance_
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  isSpec: "True"
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).Instance
+  nameWithType: SingleTonForGameObject<_T>.Instance
+  nameWithType.vb: SingleTonForGameObject(Of _T).Instance
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance(`0@)
+  name: SetInstance(in _T)
+  href: api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html#CommonUtilLib_ThreadSafe_SingleTonForGameObject_1_SetInstance__0__
+  commentId: M:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance(`0@)
+  name.vb: SetInstance(_T)
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.SetInstance(in _T)
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).SetInstance(_T)
+  nameWithType: SingleTonForGameObject<_T>.SetInstance(in _T)
+  nameWithType.vb: SingleTonForGameObject(Of _T).SetInstance(_T)
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance*
+  name: SetInstance
+  href: api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html#CommonUtilLib_ThreadSafe_SingleTonForGameObject_1_SetInstance_
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance
+  isSpec: "True"
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.SetInstance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).SetInstance
+  nameWithType: SingleTonForGameObject<_T>.SetInstance
+  nameWithType.vb: SingleTonForGameObject(Of _T).SetInstance
 - uid: CommonUtilLib.ThreadSafe.SingleTon`1
   name: SingleTon<_T>
   href: api/CommonUtilLib.ThreadSafe.SingleTon-1.html

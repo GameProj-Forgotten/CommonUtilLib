@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  commentId: T:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  id: SingleTonForGameObject`1
+  parent: CommonUtilLib.ThreadSafe
+  children:
+  - CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  - CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance(`0@)
+  langs:
+  - csharp
+  - vb
+  name: SingleTonForGameObject<_T>
+  nameWithType: SingleTonForGameObject<_T>
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>
+  type: Class
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: SingleTonForGameObject
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 65
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  syntax:
+    content: 'public class SingleTonForGameObject<_T> where _T : MonoBehaviour'
+    typeParameters:
+    - id: _T
+    content.vb: Public Class SingleTonForGameObject(Of _T As MonoBehaviour)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: SingleTonForGameObject(Of _T)
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T)
+  name.vb: SingleTonForGameObject(Of _T)
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  commentId: P:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  id: Instance
+  parent: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: SingleTonForGameObject<_T>.Instance
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.Instance
+  type: Property
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: Instance
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 71
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  syntax:
+    content: public static _T Instance { get; }
+    parameters: []
+    return:
+      type: '{_T}'
+    content.vb: Public Shared ReadOnly Property Instance As _T
+  overload: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance*
+  nameWithType.vb: SingleTonForGameObject(Of _T).Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).Instance
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance(`0@)
+  commentId: M:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance(`0@)
+  id: SetInstance(`0@)
+  parent: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1
+  langs:
+  - csharp
+  - vb
+  name: SetInstance(in _T)
+  nameWithType: SingleTonForGameObject<_T>.SetInstance(in _T)
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.SetInstance(in _T)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/SingleTon.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/CommonUtilLib.git
+    id: SetInstance
+    path: ../Public/Functor/SingleTon.cs
+    startLine: 86
+  assemblies:
+  - CommonUtilLib
+  namespace: CommonUtilLib.ThreadSafe
+  syntax:
+    content: public static void SetInstance(in _T instance)
+    parameters:
+    - id: instance
+      type: '{_T}'
+    content.vb: Public Shared Sub SetInstance(instance As _T)
+  overload: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance*
+  nameWithType.vb: SingleTonForGameObject(Of _T).SetInstance(_T)
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).SetInstance(_T)
+  name.vb: SetInstance(_T)
+references:
+- uid: CommonUtilLib.ThreadSafe
+  commentId: N:CommonUtilLib.ThreadSafe
+  href: CommonUtilLib.html
+  name: CommonUtilLib.ThreadSafe
+  nameWithType: CommonUtilLib.ThreadSafe
+  fullName: CommonUtilLib.ThreadSafe
+  spec.csharp:
+  - uid: CommonUtilLib
+    name: CommonUtilLib
+    href: CommonUtilLib.html
+  - name: .
+  - uid: CommonUtilLib.ThreadSafe
+    name: ThreadSafe
+    href: CommonUtilLib.ThreadSafe.html
+  spec.vb:
+  - uid: CommonUtilLib
+    name: CommonUtilLib
+    href: CommonUtilLib.html
+  - name: .
+  - uid: CommonUtilLib.ThreadSafe
+    name: ThreadSafe
+    href: CommonUtilLib.ThreadSafe.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance*
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.Instance
+  href: CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html#CommonUtilLib_ThreadSafe_SingleTonForGameObject_1_Instance
+  name: Instance
+  nameWithType: SingleTonForGameObject<_T>.Instance
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.Instance
+  nameWithType.vb: SingleTonForGameObject(Of _T).Instance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).Instance
+- uid: '{_T}'
+  commentId: '!:_T'
+  definition: _T
+  name: _T
+  nameWithType: _T
+  fullName: _T
+- uid: _T
+  name: _T
+  nameWithType: _T
+  fullName: _T
+- uid: CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance*
+  commentId: Overload:CommonUtilLib.ThreadSafe.SingleTonForGameObject`1.SetInstance
+  href: CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html#CommonUtilLib_ThreadSafe_SingleTonForGameObject_1_SetInstance__0__
+  name: SetInstance
+  nameWithType: SingleTonForGameObject<_T>.SetInstance
+  fullName: CommonUtilLib.ThreadSafe.SingleTonForGameObject<_T>.SetInstance
+  nameWithType.vb: SingleTonForGameObject(Of _T).SetInstance
+  fullName.vb: CommonUtilLib.ThreadSafe.SingleTonForGameObject(Of _T).SetInstance
