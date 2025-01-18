@@ -29,7 +29,7 @@ Each function is organized into thread-safe and non-thread-safe versions
 
 ## Dependency
 ```
-None
+UnityEngine.dll
 ```
 
 ## <a href="https://github.com/GameProj-Forgotten/CommonUtilLib/releases">Releases</a>
