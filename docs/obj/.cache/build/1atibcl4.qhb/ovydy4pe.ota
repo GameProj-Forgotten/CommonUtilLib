@@ -1,0 +1,1 @@
+{"index.md":[{"File":"index.md","LogLevel":"warning","Message":"Text in the first line of Note/Section/Video is not valid. Will be rendered to <blockquote>","Phase":"BuildCore.Build Document.CompilePhaseHandlerWithIncremental.ConceptualDocumentProcessor.Build.BuildConceptualDocument","Code":"invalid-note-section"}]}

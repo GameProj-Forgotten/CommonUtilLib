@@ -1,4 +1,5 @@
 {
+  "homepages": [],
   "source_base_path": "C:/Storage/Libs/Forgotten/CommonUtilLib/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -8,16 +9,19 @@
         "resource": {
           "relative_path": "index.json"
         }
-      }
+      },
+      "is_incremental": false
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/CommonUtilLib.ThreadSafe.SingleTon-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CommonUtilLib.ThreadSafe.SingleTon-1.html"
+          "relative_path": "api/CommonUtilLib.ThreadSafe.SingleTon-1.html",
+          "hash": "ohXqvoplH9+yDa62zGFXc8HYqhAl+GisB/NmJS3fVAg="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -25,9 +29,11 @@
       "source_relative_path": "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html"
+          "relative_path": "api/CommonUtilLib.ThreadSafe.SingleTonForGameObject-1.html",
+          "hash": "JcAyZ7S1Z6JnpdOcKNPc2q4xCoCIHNI+ePdS11M07P4="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -35,9 +41,11 @@
       "source_relative_path": "api/CommonUtilLib.ThreadSafe.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CommonUtilLib.ThreadSafe.html"
+          "relative_path": "api/CommonUtilLib.ThreadSafe.html",
+          "hash": "KSiUueFNq1SIGK5pLFiIJJYgTPgXW8w+UZxvSh1eyW0="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,12 +53,11 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html"
-        },
-        ".json": {
-          "relative_path": "api/toc.json"
+          "relative_path": "api/toc.html",
+          "hash": "sdMwyUE5UvAv+Q6fFPHgqr+ALG5K/8vBZ64olvniW7k="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -58,9 +65,11 @@
       "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/getting-started.html",
+          "hash": "H2ifcQSciz+qP33wlgpDWL5BBDyNDj/io7HNi3/NHFs="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -68,9 +77,11 @@
       "source_relative_path": "docs/introduction.md",
       "output": {
         ".html": {
-          "relative_path": "docs/introduction.html"
+          "relative_path": "docs/introduction.html",
+          "hash": "9RXfiKAMtb+eZklzDR8iv3e1F3Mo1zwywC9zptvtOsk="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -78,22 +89,26 @@
       "source_relative_path": "docs/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "docs/toc.json"
+          "relative_path": "docs/toc.html",
+          "hash": "dEg4vNJttsFNrPQ2PBDQzg4Rf1UMrrc7EXWNlSSB4W0="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "invalid-note-section"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html"
+          "relative_path": "index.html",
+          "hash": "R8ve6oYy14goTIZdzD86Lcs7/ZOR+7pLHl7FYjnSG78="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -101,15 +116,58 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html"
-        },
-        ".json": {
-          "relative_path": "toc.json"
+          "relative_path": "toc.html",
+          "hash": "oqpVsigGnzYiHCk8gIcQjTrAMS5fjDPs9yebFvIy3YM="
         }
       },
+      "is_incremental": false,
       "version": ""
     }
   ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"

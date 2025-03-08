@@ -13,7 +13,7 @@ namespace CommonUtilLib.ThreadSafe
     /// General thread safe singleton class
     /// </summary>
     /// <typeparam name="_T"></typeparam>
-    public class SingleTon<_T> : IDisposable where _T : class, IDisposable, new()
+    public abstract class SingleTon<_T> : IDisposable where _T : class, new()
     {
         private static _T m_instance = null;
         private static readonly object m_lock = new object();
@@ -50,20 +50,10 @@ namespace CommonUtilLib.ThreadSafe
             Dispose(true);
         }
 
-        private void Dispose(bool bisDisposing)
-        {
-            if (bisDisposing)
-            {
-                if (m_instance != null)
-                {
-                    m_instance.Dispose();
-                    m_instance = null;
-                }
-            }
-        }
+        protected abstract void Dispose(bool bisDisposing);
     }
 
-    public class SingleTonForGameObject<_T> : MonoBehaviour where _T : class
+    public abstract class SingleTonForGameObject<_T> : MonoBehaviour, IDisposable where _T : class
     {
         private static _T m_instance = null;
         private static readonly object m_lock = new object();
@@ -77,7 +67,7 @@ namespace CommonUtilLib.ThreadSafe
                 {
                     if (m_instance == null)
                     {
-                        throw new Exception("The instance is null");
+                        throw new Exception("Must call SetInstance method, before use Instance");
                     }
                     return m_instance;
                 }
@@ -91,8 +81,24 @@ namespace CommonUtilLib.ThreadSafe
                 if (m_instance == null)
                 {
                     m_instance = instance;
+                    //DontDestroyOnLoad((m_instance as MonoBehaviour).gameObject);
                 }
             }
         }
+
+        public bool BIsInstanceNull
+        {
+            get
+            {
+                return m_instance == null;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+
+        protected abstract void Dispose(bool bisDisposing);
     }
 }
